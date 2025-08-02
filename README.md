@@ -2,7 +2,7 @@
 
 # PAS: Police Action Scenario Framework
 
-<img width="10866" height="4370" alt="FIg1-PAS Construction with Example" src="https://github.com/user-attachments/assets/18b5e23d-70d8-4640-a7fb-e5b6c58f196b" />
+<img width="200" height="100" alt="FIg1-PAS Construction with Example" src="https://github.com/user-attachments/assets/18b5e23d-70d8-4640-a7fb-e5b6c58f196b" />
 
 
 **PAS (Police Action Scenario)** is a dedicated framework for evaluating Large Language Models (LLMs) in real-world policing contexts.
