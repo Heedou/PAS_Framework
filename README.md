@@ -10,12 +10,12 @@
 	</tr>
   <tr>
 		<td>Sangyub Lee</td>		
-		<td>Intelligence and Informatics Lab,<br>Korea University, Seoul, South Korea \n Korea National Police Agency</td>
+		<td>Intelligence and Informatics Lab,<br>Korea University, Seoul, South Korea <br>& Korean National Police Agency</td>
 		<td>yubii2@korea.ac.kr</td>
 	</tr>
 	<tr>
 		<td>Heedou Kim</td>		
-		<td>Data Mining and Information Systems Lab,<br>Korea University, Seoul, South Korea</td>
+		<td>Data Mining and Information Systems Lab,<br>Korea University, Seoul, South Korea<br>& Korean National Police Agency</td>
 		<td>heedou123@korea.ac.kr</td>
 	</tr>
 	<tr>
