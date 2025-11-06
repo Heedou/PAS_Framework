@@ -1,5 +1,32 @@
 # PAS_Framework
 
+## Contributors
+
+<table>
+	<tr>
+		<th>Name</th>		
+		<th>Affiliation</th>
+		<th>Email</th>
+	</tr>
+  <tr>
+		<td>Sangyub Lee</td>		
+		<td> Lab,<br>Korea University, Seoul, South Korea</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Heedou Kim</td>		
+		<td>Data Mining and Information Systems Lab,<br>Korea University, Seoul, South Korea</td>
+		<td>heedou123@korea.ac.kr</td>
+	</tr>
+	<tr>
+		<td>Hyuncheol Kim*</td>		
+		<td> Lab,<br>Korea University, Seoul, South Korea</td>
+		<td>@korea.ac.kr</td>
+	</tr>
+</table>
+
+- &ast;: *Corresponding Author*
+
 # PAS: Police Action Scenario Framework
 
 <img width="500" height="300" alt="FIg1-PAS Construction with Example" src="https://github.com/user-attachments/assets/18b5e23d-70d8-4640-a7fb-e5b6c58f196b" />
