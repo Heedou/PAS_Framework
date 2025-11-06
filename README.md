@@ -10,8 +10,8 @@
 	</tr>
   <tr>
 		<td>Sangyub Lee</td>		
-		<td> Lab,<br>Korea University, Seoul, South Korea</td>
-		<td></td>
+		<td>Intelligence and Informatics Lab,<br>Korea University, Seoul, South Korea</td>
+		<td>yubii2@korea.ac.kr</td>
 	</tr>
 	<tr>
 		<td>Heedou Kim</td>		
@@ -20,8 +20,8 @@
 	</tr>
 	<tr>
 		<td>Hyuncheol Kim*</td>		
-		<td> Lab,<br>Korea University, Seoul, South Korea</td>
-		<td>@korea.ac.kr</td>
+		<td>Intelligence and Informatics Lab,<br>Korea University, Seoul, South Korea</td>
+		<td>harrykim@korea.ac.kr</td>
 	</tr>
 </table>
 
