@@ -10,7 +10,7 @@
 	</tr>
   <tr>
 		<td>Sangyub Lee</td>		
-		<td>Intelligence and Informatics Lab,<br>Korea University, Seoul, South Korea & Korea National Police Agency</td>
+		<td>Intelligence and Informatics Lab,<br>Korea University, Seoul, South Korea \\ Korea National Police Agency</td>
 		<td>yubii2@korea.ac.kr</td>
 	</tr>
 	<tr>
