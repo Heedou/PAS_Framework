@@ -1,0 +1,29 @@
+data:
+  load_path: "..\\data\\manual_qa_4.csv"
+  save_path: "..\\data\\manual_qa_4_answer.csv"
+  text_column: # list of columns to include in the user_prompt
+    - 'question'
+  answer_column: # list of columns to store answers
+    - 'answer_claude' 
+  
+model:
+  model_name: "gemini-1.5-pro"
+  temperature: 0.8
+  max_tokens: 2048
+  chunk_size : 3
+  sleep_time : 60
+  max_iterations : 5
+  
+prompt:
+  system: "You are an expert in law enforcement. For each question provided, give a thorough, well-reasoned response, using your specialized knowledge to deliver the most accurate and insightful answers possible."
+  user: "Here is the question:\n\n{text_input}"
+  response_format:
+    type: "object"
+    properties:
+      answer:
+        type: "string"
+        description: "professional answer for question"
+
+    required: ["answer"]
+
+  

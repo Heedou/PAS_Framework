@@ -1,0 +1,32 @@
+data:
+  load_path: "..\\data\\manual_qa_4.csv"
+  save_path: "..\\data\\manual_qa_4_answer.csv"
+  text_column: # list of columns to include in the user_prompt
+    - 'question'
+  answer_column: # list of columns to store answers
+    - 'answer_claude' 
+  
+model:
+  model_name: "claude-3-opus-20240229"
+  temperature: 0.8
+  max_tokens: 1024
+  chunk_size : 10
+  sleep_time : 60
+  max_iterations : 7
+
+prompt:
+  system: "You are an expert in law enforcement. For each question provided, give a thorough, well-reasoned response, using your specialized knowledge to deliver the most accurate and insightful answers possible."
+  user: "Here is the question:\n\n{text_input}"
+  tools:
+    - name: "answer_json"         
+      description: "사용자 질문에 대한 응답을 json으로 생성합니다"  
+      input_schema:
+        type: "object"              
+        properties:
+          answer:
+            type: "string"          
+            description: "전문적인 답변 내용" 
+        required: ["answer"]    
+
+
+  

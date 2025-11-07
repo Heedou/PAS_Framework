@@ -1,0 +1,34 @@
+data:
+  load_path: "..\\data\\judge_prompt_reference.csv"
+  save_path: "..\\results\\gpt_judge_answer_reference.csv"
+  text_column: # list of columns to include in the user_prompt
+    - 'judge_prompt' 
+  answer_column: # list of columns to store answers
+    - 'judge_answer' 
+  
+model:
+  model_name: "gpt-4o-mini"
+  temperature: 0.8
+  max_tokens: 8192
+  chunk_size : 50
+  sleep_time : 30
+  max_iterations : 5
+  
+prompt:
+  system: "You are an expert in policing and law enforcement."
+  
+  response_format:
+    type: "json_schema"
+    json_schema:
+      name: "answer_json"
+      schema:
+        type: "object"
+        properties:
+          feedback:
+            type: "string"
+            description: "concise feedback on the AI assistant's response in Korean"
+          score:
+            type: "number"
+            description: "evaluation score as a number from 1(lowest) to 5(highest)"
+        required: ["feedback", "score"]
+
